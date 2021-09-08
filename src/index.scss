@@ -122,6 +122,10 @@ li {
     font-size: 3em;
     color: white;
   }
+  
+  .card-image-container {
+    max-height: 500px;
+  }
 
   .card-image {
     width: 100%;
@@ -143,7 +147,7 @@ li {
 
   .expanded-card {
     height: 100vh;
-    width: 100vw;
+    width: 900px;
     position: fixed;
     top: 0;
     right: 0;
@@ -152,9 +156,9 @@ li {
     overflow: hidden;
     z-index: infinite;
     pointer-events: none;
-
+    background-color: black;
     .card-image-container {
-      height: 300px;
+      height: 600px;
     }
   }
 
