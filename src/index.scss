@@ -45,6 +45,7 @@ li {
   width: 8rem;
   height: 8rem;
   background: orangered;
+  margin-bottom: 5em;
 }
 
 .example__container {
@@ -66,6 +67,7 @@ li {
 
 .example-one__container .square { 
   border-radius: 100px;
+  margin-bottom: 0;
 }
 
 #example-two {
@@ -204,8 +206,18 @@ li {
 }
 
 #example-five {
+  ul {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+
   .square {
-    margin-bottom: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
   }
 }
-
