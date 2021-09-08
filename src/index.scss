@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -202,4 +203,9 @@ li {
   }
 }
 
+#example-five {
+  .square {
+    margin-bottom: 5em;
+  }
+}
 
