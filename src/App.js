@@ -6,6 +6,9 @@ import ExampleThree from './ExampleThree/ExampleThree'
 import ExampleFour from './ExampleFour/ExampleFour'
 import ExampleFive from './ExampleFive'
 import ExampleSix from './ExampleSix'
+import ExampleSeven from './ExampleSeven'
+import ExampleEight from './ExampleEight'
+
 function App() {
   return (
     <div className="App">
@@ -19,6 +22,8 @@ function App() {
         <ExampleFour />
         <ExampleFive />
         <ExampleSix />
+        <ExampleSeven />
+        <ExampleEight />
       </div>
     </div>
   );
